@@ -1,6 +1,19 @@
 /* eslint-disable */
 window.phet.phetio.phetioElementsBaseline = assert &&
   {
+    "forcesAndMotionBasics.accelerationScreen": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": true,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ScreenIO"
+    },
     "forcesAndMotionBasics.accelerationScreen.activeProperty": {
       "phetioDocumentation": "Indicates whether the screen is currently displayed in the simulation.  For single-screen simulations, there is only one screen and it is always active.",
       "phetioDynamicElement": false,
@@ -1653,7 +1666,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
     "forcesAndMotionBasics.accelerationScreen.view.appliedForceSlider.enabledRangeProperty": {
-      "phetioDocumentation": "",
+      "phetioDocumentation": "Sliders support two ranges: the outer range which specifies the min and max of the track and the enabledRangeProperty, which determines how low and high the thumb can be dragged within the track.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -1770,7 +1783,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.accelerationScreen.view.appliedForceSlider.thumbInputListener.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -1783,7 +1796,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.accelerationScreen.view.appliedForceSlider.thumbInputListener.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -1796,7 +1809,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.accelerationScreen.view.appliedForceSlider.thumbInputListener.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -2030,7 +2043,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.accelerationScreen.view.appliedForceSlider.track.trackInputListener.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -2043,7 +2056,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.accelerationScreen.view.appliedForceSlider.track.trackInputListener.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -2056,7 +2069,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.accelerationScreen.view.appliedForceSlider.track.trackInputListener.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -2185,6 +2198,214 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NodeIO"
     },
+    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.decrementCoarseButton": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NodeIO"
+    },
+    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.decrementCoarseButton.enabledProperty": {
+      "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.decrementCoarseButton.firedEmitter": {
+      "phetioDocumentation": "Emits when the button is fired No arguments.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "EmitterIO<>"
+    },
+    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.decrementCoarseButton.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.decrementCoarseButton.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.decrementCoarseButton.pressListener.pressAction": {
+      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<SceneryEventIO>"
+    },
+    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.decrementCoarseButton.pressListener.releaseAction": {
+      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
+    },
+    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.decrementCoarseButton.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": true,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.decrementFineButton": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NodeIO"
+    },
+    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.decrementFineButton.enabledProperty": {
+      "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.decrementFineButton.firedEmitter": {
+      "phetioDocumentation": "Emits when the button is fired No arguments.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "EmitterIO<>"
+    },
+    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.decrementFineButton.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.decrementFineButton.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.decrementFineButton.pressListener.pressAction": {
+      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<SceneryEventIO>"
+    },
+    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.decrementFineButton.pressListener.releaseAction": {
+      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
+    },
+    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.decrementFineButton.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": true,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
     "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.enabledProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
@@ -2198,7 +2419,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.leftCoarseButton": {
+    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.incrementCoarseButton": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -2211,20 +2432,20 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NodeIO"
     },
-    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.leftCoarseButton.enabledProperty": {
+    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.incrementCoarseButton.enabledProperty": {
       "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
-      "phetioFeatured": true,
+      "phetioFeatured": false,
       "phetioHighFrequency": false,
       "phetioIsArchetype": false,
       "phetioPlayback": false,
-      "phetioReadOnly": false,
+      "phetioReadOnly": true,
       "phetioState": true,
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.leftCoarseButton.firedEmitter": {
+    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.incrementCoarseButton.firedEmitter": {
       "phetioDocumentation": "Emits when the button is fired No arguments.",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -2237,7 +2458,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "EmitterIO<>"
     },
-    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.leftCoarseButton.opacityProperty": {
+    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.incrementCoarseButton.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -2250,7 +2471,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.leftCoarseButton.pickableProperty": {
+    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.incrementCoarseButton.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -2263,7 +2484,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.leftCoarseButton.pressListener.pressAction": {
+    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.incrementCoarseButton.pressListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -2276,7 +2497,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<SceneryEventIO>"
     },
-    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.leftCoarseButton.pressListener.releaseAction": {
+    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.incrementCoarseButton.pressListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -2289,7 +2510,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
     },
-    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.leftCoarseButton.visibleProperty": {
+    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.incrementCoarseButton.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -2302,7 +2523,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.leftFineButton": {
+    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.incrementFineButton": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -2315,20 +2536,20 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NodeIO"
     },
-    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.leftFineButton.enabledProperty": {
+    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.incrementFineButton.enabledProperty": {
       "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
-      "phetioFeatured": true,
+      "phetioFeatured": false,
       "phetioHighFrequency": false,
       "phetioIsArchetype": false,
       "phetioPlayback": false,
-      "phetioReadOnly": false,
+      "phetioReadOnly": true,
       "phetioState": true,
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.leftFineButton.firedEmitter": {
+    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.incrementFineButton.firedEmitter": {
       "phetioDocumentation": "Emits when the button is fired No arguments.",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -2341,7 +2562,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "EmitterIO<>"
     },
-    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.leftFineButton.opacityProperty": {
+    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.incrementFineButton.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -2354,7 +2575,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.leftFineButton.pickableProperty": {
+    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.incrementFineButton.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -2367,7 +2588,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.leftFineButton.pressListener.pressAction": {
+    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.incrementFineButton.pressListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -2380,7 +2601,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<SceneryEventIO>"
     },
-    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.leftFineButton.pressListener.releaseAction": {
+    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.incrementFineButton.pressListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -2393,7 +2614,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
     },
-    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.leftFineButton.visibleProperty": {
+    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.incrementFineButton.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -2549,7 +2770,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.rightCoarseButton": {
+    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.property": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -2557,205 +2778,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioHighFrequency": false,
       "phetioIsArchetype": false,
       "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NodeIO"
-    },
-    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.rightCoarseButton.enabledProperty": {
-      "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": true,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
+      "phetioReadOnly": true,
       "phetioState": true,
       "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.rightCoarseButton.firedEmitter": {
-      "phetioDocumentation": "Emits when the button is fired No arguments.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<>"
-    },
-    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.rightCoarseButton.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.rightCoarseButton.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.rightCoarseButton.pressListener.pressAction": {
-      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<SceneryEventIO>"
-    },
-    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.rightCoarseButton.pressListener.releaseAction": {
-      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
-    },
-    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.rightCoarseButton.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": true,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.rightFineButton": {
-      "phetioDocumentation": "",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NodeIO"
-    },
-    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.rightFineButton.enabledProperty": {
-      "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": true,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.rightFineButton.firedEmitter": {
-      "phetioDocumentation": "Emits when the button is fired No arguments.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<>"
-    },
-    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.rightFineButton.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.rightFineButton.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.rightFineButton.pressListener.pressAction": {
-      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<SceneryEventIO>"
-    },
-    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.rightFineButton.pressListener.releaseAction": {
-      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
-    },
-    "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.rightFineButton.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": true,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
+      "phetioTypeName": "LinkedElementIO"
     },
     "forcesAndMotionBasics.accelerationScreen.view.appliedForceSpinner.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
@@ -2797,7 +2823,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.accelerationScreen.view.bucket.dragHandler.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -2810,7 +2836,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.accelerationScreen.view.bucket.dragHandler.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -2823,7 +2849,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.accelerationScreen.view.bucket.dragHandler.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -3564,7 +3590,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
     "forcesAndMotionBasics.accelerationScreen.view.controlPanel.frictionSlider.enabledRangeProperty": {
-      "phetioDocumentation": "",
+      "phetioDocumentation": "Sliders support two ranges: the outer range which specifies the min and max of the track and the enabledRangeProperty, which determines how low and high the thumb can be dragged within the track.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -3616,7 +3642,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.accelerationScreen.view.controlPanel.frictionSlider.thumbInputListener.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -3629,7 +3655,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.accelerationScreen.view.controlPanel.frictionSlider.thumbInputListener.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -3642,7 +3668,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.accelerationScreen.view.controlPanel.frictionSlider.thumbInputListener.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -3681,7 +3707,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.accelerationScreen.view.controlPanel.frictionSlider.track.trackInputListener.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -3694,7 +3720,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.accelerationScreen.view.controlPanel.frictionSlider.track.trackInputListener.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -3707,7 +3733,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.accelerationScreen.view.controlPanel.frictionSlider.track.trackInputListener.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -5423,7 +5449,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.accelerationScreen.view.crate1.dragHandler.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -5436,7 +5462,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.accelerationScreen.view.crate1.dragHandler.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -5449,7 +5475,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.accelerationScreen.view.crate1.dragHandler.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -5761,7 +5787,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.accelerationScreen.view.crate2.dragHandler.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -5774,7 +5800,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.accelerationScreen.view.crate2.dragHandler.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -5787,7 +5813,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.accelerationScreen.view.crate2.dragHandler.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -6333,7 +6359,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.accelerationScreen.view.fridge.dragHandler.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -6346,7 +6372,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.accelerationScreen.view.fridge.dragHandler.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -6359,7 +6385,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.accelerationScreen.view.fridge.dragHandler.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -6671,7 +6697,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.accelerationScreen.view.girl.dragHandler.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -6684,7 +6710,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.accelerationScreen.view.girl.dragHandler.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -6697,7 +6723,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.accelerationScreen.view.girl.dragHandler.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -7113,7 +7139,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.accelerationScreen.view.man.dragHandler.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -7126,7 +7152,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.accelerationScreen.view.man.dragHandler.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -7139,7 +7165,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.accelerationScreen.view.man.dragHandler.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -8322,7 +8348,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.accelerationScreen.view.pusherNode.dragHandler.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -8335,7 +8361,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.accelerationScreen.view.pusherNode.dragHandler.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -8348,7 +8374,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.accelerationScreen.view.pusherNode.dragHandler.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -12962,6 +12988,19 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
+    "forcesAndMotionBasics.frictionScreen": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": true,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ScreenIO"
+    },
     "forcesAndMotionBasics.frictionScreen.activeProperty": {
       "phetioDocumentation": "Indicates whether the screen is currently displayed in the simulation.  For single-screen simulations, there is only one screen and it is always active.",
       "phetioDynamicElement": false,
@@ -14458,7 +14497,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
     "forcesAndMotionBasics.frictionScreen.view.appliedForceSlider.enabledRangeProperty": {
-      "phetioDocumentation": "",
+      "phetioDocumentation": "Sliders support two ranges: the outer range which specifies the min and max of the track and the enabledRangeProperty, which determines how low and high the thumb can be dragged within the track.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -14575,7 +14614,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.frictionScreen.view.appliedForceSlider.thumbInputListener.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -14588,7 +14627,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.frictionScreen.view.appliedForceSlider.thumbInputListener.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -14601,7 +14640,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.frictionScreen.view.appliedForceSlider.thumbInputListener.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -14835,7 +14874,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.frictionScreen.view.appliedForceSlider.track.trackInputListener.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -14848,7 +14887,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.frictionScreen.view.appliedForceSlider.track.trackInputListener.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -14861,7 +14900,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.frictionScreen.view.appliedForceSlider.track.trackInputListener.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -14990,6 +15029,214 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NodeIO"
     },
+    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.decrementCoarseButton": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NodeIO"
+    },
+    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.decrementCoarseButton.enabledProperty": {
+      "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.decrementCoarseButton.firedEmitter": {
+      "phetioDocumentation": "Emits when the button is fired No arguments.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "EmitterIO<>"
+    },
+    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.decrementCoarseButton.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.decrementCoarseButton.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.decrementCoarseButton.pressListener.pressAction": {
+      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<SceneryEventIO>"
+    },
+    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.decrementCoarseButton.pressListener.releaseAction": {
+      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
+    },
+    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.decrementCoarseButton.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": true,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.decrementFineButton": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NodeIO"
+    },
+    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.decrementFineButton.enabledProperty": {
+      "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.decrementFineButton.firedEmitter": {
+      "phetioDocumentation": "Emits when the button is fired No arguments.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "EmitterIO<>"
+    },
+    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.decrementFineButton.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.decrementFineButton.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.decrementFineButton.pressListener.pressAction": {
+      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<SceneryEventIO>"
+    },
+    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.decrementFineButton.pressListener.releaseAction": {
+      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
+    },
+    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.decrementFineButton.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": true,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
     "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.enabledProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
@@ -15003,7 +15250,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.leftCoarseButton": {
+    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.incrementCoarseButton": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -15016,20 +15263,20 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NodeIO"
     },
-    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.leftCoarseButton.enabledProperty": {
+    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.incrementCoarseButton.enabledProperty": {
       "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
-      "phetioFeatured": true,
+      "phetioFeatured": false,
       "phetioHighFrequency": false,
       "phetioIsArchetype": false,
       "phetioPlayback": false,
-      "phetioReadOnly": false,
+      "phetioReadOnly": true,
       "phetioState": true,
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.leftCoarseButton.firedEmitter": {
+    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.incrementCoarseButton.firedEmitter": {
       "phetioDocumentation": "Emits when the button is fired No arguments.",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -15042,7 +15289,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "EmitterIO<>"
     },
-    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.leftCoarseButton.opacityProperty": {
+    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.incrementCoarseButton.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -15055,7 +15302,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.leftCoarseButton.pickableProperty": {
+    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.incrementCoarseButton.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -15068,7 +15315,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.leftCoarseButton.pressListener.pressAction": {
+    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.incrementCoarseButton.pressListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -15081,7 +15328,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<SceneryEventIO>"
     },
-    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.leftCoarseButton.pressListener.releaseAction": {
+    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.incrementCoarseButton.pressListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -15094,7 +15341,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
     },
-    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.leftCoarseButton.visibleProperty": {
+    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.incrementCoarseButton.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -15107,7 +15354,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.leftFineButton": {
+    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.incrementFineButton": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -15120,20 +15367,20 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NodeIO"
     },
-    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.leftFineButton.enabledProperty": {
+    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.incrementFineButton.enabledProperty": {
       "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
-      "phetioFeatured": true,
+      "phetioFeatured": false,
       "phetioHighFrequency": false,
       "phetioIsArchetype": false,
       "phetioPlayback": false,
-      "phetioReadOnly": false,
+      "phetioReadOnly": true,
       "phetioState": true,
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.leftFineButton.firedEmitter": {
+    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.incrementFineButton.firedEmitter": {
       "phetioDocumentation": "Emits when the button is fired No arguments.",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -15146,7 +15393,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "EmitterIO<>"
     },
-    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.leftFineButton.opacityProperty": {
+    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.incrementFineButton.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -15159,7 +15406,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.leftFineButton.pickableProperty": {
+    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.incrementFineButton.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -15172,7 +15419,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.leftFineButton.pressListener.pressAction": {
+    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.incrementFineButton.pressListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -15185,7 +15432,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<SceneryEventIO>"
     },
-    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.leftFineButton.pressListener.releaseAction": {
+    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.incrementFineButton.pressListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -15198,7 +15445,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
     },
-    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.leftFineButton.visibleProperty": {
+    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.incrementFineButton.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -15354,7 +15601,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.rightCoarseButton": {
+    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.property": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -15362,205 +15609,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioHighFrequency": false,
       "phetioIsArchetype": false,
       "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NodeIO"
-    },
-    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.rightCoarseButton.enabledProperty": {
-      "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": true,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
+      "phetioReadOnly": true,
       "phetioState": true,
       "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.rightCoarseButton.firedEmitter": {
-      "phetioDocumentation": "Emits when the button is fired No arguments.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<>"
-    },
-    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.rightCoarseButton.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.rightCoarseButton.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.rightCoarseButton.pressListener.pressAction": {
-      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<SceneryEventIO>"
-    },
-    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.rightCoarseButton.pressListener.releaseAction": {
-      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
-    },
-    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.rightCoarseButton.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": true,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.rightFineButton": {
-      "phetioDocumentation": "",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NodeIO"
-    },
-    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.rightFineButton.enabledProperty": {
-      "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": true,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.rightFineButton.firedEmitter": {
-      "phetioDocumentation": "Emits when the button is fired No arguments.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<>"
-    },
-    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.rightFineButton.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.rightFineButton.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.rightFineButton.pressListener.pressAction": {
-      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<SceneryEventIO>"
-    },
-    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.rightFineButton.pressListener.releaseAction": {
-      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
-    },
-    "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.rightFineButton.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": true,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
+      "phetioTypeName": "LinkedElementIO"
     },
     "forcesAndMotionBasics.frictionScreen.view.appliedForceSpinner.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
@@ -15667,7 +15719,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
     "forcesAndMotionBasics.frictionScreen.view.controlPanel.frictionSlider.enabledRangeProperty": {
-      "phetioDocumentation": "",
+      "phetioDocumentation": "Sliders support two ranges: the outer range which specifies the min and max of the track and the enabledRangeProperty, which determines how low and high the thumb can be dragged within the track.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -15719,7 +15771,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.frictionScreen.view.controlPanel.frictionSlider.thumbInputListener.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -15732,7 +15784,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.frictionScreen.view.controlPanel.frictionSlider.thumbInputListener.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -15745,7 +15797,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.frictionScreen.view.controlPanel.frictionSlider.thumbInputListener.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -15784,7 +15836,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.frictionScreen.view.controlPanel.frictionSlider.track.trackInputListener.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -15797,7 +15849,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.frictionScreen.view.controlPanel.frictionSlider.track.trackInputListener.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -15810,7 +15862,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.frictionScreen.view.controlPanel.frictionSlider.track.trackInputListener.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -17370,7 +17422,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.frictionScreen.view.crate1.dragHandler.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -17383,7 +17435,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.frictionScreen.view.crate1.dragHandler.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -17396,7 +17448,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.frictionScreen.view.crate1.dragHandler.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -17708,7 +17760,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.frictionScreen.view.crate2.dragHandler.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -17721,7 +17773,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.frictionScreen.view.crate2.dragHandler.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -17734,7 +17786,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.frictionScreen.view.crate2.dragHandler.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -18280,7 +18332,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.frictionScreen.view.fridge.dragHandler.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -18293,7 +18345,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.frictionScreen.view.fridge.dragHandler.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -18306,7 +18358,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.frictionScreen.view.fridge.dragHandler.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -18618,7 +18670,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.frictionScreen.view.girl.dragHandler.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -18631,7 +18683,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.frictionScreen.view.girl.dragHandler.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -18644,7 +18696,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.frictionScreen.view.girl.dragHandler.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -19060,7 +19112,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.frictionScreen.view.man.dragHandler.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -19073,7 +19125,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.frictionScreen.view.man.dragHandler.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -19086,7 +19138,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.frictionScreen.view.man.dragHandler.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -20074,7 +20126,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.frictionScreen.view.mystery.dragHandler.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -20087,7 +20139,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.frictionScreen.view.mystery.dragHandler.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -20100,7 +20152,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.frictionScreen.view.mystery.dragHandler.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -20607,7 +20659,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.frictionScreen.view.pusherNode.dragHandler.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -20620,7 +20672,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.frictionScreen.view.pusherNode.dragHandler.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -20633,7 +20685,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.frictionScreen.view.pusherNode.dragHandler.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -25014,7 +25066,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.frictionScreen.view.trash.dragHandler.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -25027,7 +25079,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.frictionScreen.view.trash.dragHandler.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -25040,7 +25092,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.frictionScreen.view.trash.dragHandler.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -25338,123 +25390,6 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "forcesAndMotionBasics.general.activeProperty": {
-      "phetioDocumentation": "Determines whether the entire simulation is running and processing user input. Setting this property to false pauses the simulation, and prevents user interaction.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": true,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.barrierRectangle": {
-      "phetioDocumentation": "Semi-transparent barrier used to block input events when a dialog is shown, also fades out the background",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": true,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NodeIO"
-    },
-    "forcesAndMotionBasics.general.barrierRectangle.inputListener.firedEmitter": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<NullableIO<SceneryEventIO>>"
-    },
-    "forcesAndMotionBasics.general.barrierRectangle.inputListener.pressAction": {
-      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<SceneryEventIO>"
-    },
-    "forcesAndMotionBasics.general.barrierRectangle.inputListener.releaseAction": {
-      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
-    },
-    "forcesAndMotionBasics.general.barrierRectangle.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": true,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.general.barrierRectangle.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": true,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.general.barrierRectangle.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": true,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.browserTabVisibleProperty": {
-      "phetioDocumentation": "Indicates whether the browser tab containing the simulation is currently visible",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": true,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
     "forcesAndMotionBasics.general.controller.input.mouseDownAction": {
       "phetioDocumentation": "Emits when a mouse button is pressed The arguments are:<br/><ol><li>point: Vector2IO</li><br/><li>event: EventIO</li></ol>",
       "phetioDynamicElement": false,
@@ -25650,11 +25585,37 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<EventIO>"
     },
-    "forcesAndMotionBasics.general.focusProperty": {
-      "phetioDocumentation": "Stores the current focus for the simulation, null if there is not focus. This is not updated based on mouse or touch input, only keyboard and other alternative inputs.",
+    "forcesAndMotionBasics.general.model.activeProperty": {
+      "phetioDocumentation": "Determines whether the entire simulation is running and processing user input. Setting this property to false pauses the simulation, and prevents user interaction.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
-      "phetioFeatured": false,
+      "phetioFeatured": true,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.model.browserTabVisibleProperty": {
+      "phetioDocumentation": "Indicates whether the browser tab containing the simulation is currently visible",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": true,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.model.focusProperty": {
+      "phetioDocumentation": "Stores the current focus in the simulation, null if there is nothing focused. This is not updated based on mouse or touch input, only keyboard and other alternative inputs. Note that this only applies to simulations that support alternative input.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": true,
       "phetioHighFrequency": false,
       "phetioIsArchetype": false,
       "phetioPlayback": false,
@@ -25663,1983 +25624,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<FocusIO>>"
     },
-    "forcesAndMotionBasics.general.navigationBar.accelerationScreenButton": {
-      "phetioDocumentation": "Button in the navigation bar that selects the 'accelerationScreen' screen",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NodeIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.accelerationScreenButton.enabledProperty": {
-      "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.accelerationScreenButton.firedEmitter": {
-      "phetioDocumentation": "Emits when the button is fired No arguments.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.accelerationScreenButton.icon": {
-      "phetioDocumentation": "",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NodeIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.accelerationScreenButton.icon.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.accelerationScreenButton.icon.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.accelerationScreenButton.icon.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.accelerationScreenButton.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.accelerationScreenButton.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.accelerationScreenButton.pressListener.pressAction": {
-      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<SceneryEventIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.accelerationScreenButton.pressListener.releaseAction": {
-      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.accelerationScreenButton.text": {
-      "phetioDocumentation": "",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "TextIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.accelerationScreenButton.text.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.accelerationScreenButton.text.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.accelerationScreenButton.text.textProperty": {
-      "phetioDocumentation": "Property for the displayed text",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<StringIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.accelerationScreenButton.text.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.accelerationScreenButton.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.frictionScreenButton": {
-      "phetioDocumentation": "Button in the navigation bar that selects the 'frictionScreen' screen",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NodeIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.frictionScreenButton.enabledProperty": {
-      "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.frictionScreenButton.firedEmitter": {
-      "phetioDocumentation": "Emits when the button is fired No arguments.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.frictionScreenButton.icon": {
-      "phetioDocumentation": "",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NodeIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.frictionScreenButton.icon.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.frictionScreenButton.icon.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.frictionScreenButton.icon.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.frictionScreenButton.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.frictionScreenButton.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.frictionScreenButton.pressListener.pressAction": {
-      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<SceneryEventIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.frictionScreenButton.pressListener.releaseAction": {
-      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.frictionScreenButton.text": {
-      "phetioDocumentation": "",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "TextIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.frictionScreenButton.text.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.frictionScreenButton.text.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.frictionScreenButton.text.textProperty": {
-      "phetioDocumentation": "Property for the displayed text",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<StringIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.frictionScreenButton.text.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.frictionScreenButton.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.homeButton": {
-      "phetioDocumentation": "",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NodeIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.homeButton.enabledProperty": {
-      "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.homeButton.firedEmitter": {
-      "phetioDocumentation": "Emits when the button is fired No arguments.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.homeButton.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.homeButton.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.homeButton.pressListener.pressAction": {
-      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<SceneryEventIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.homeButton.pressListener.releaseAction": {
-      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.homeButton.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.motionScreenButton": {
-      "phetioDocumentation": "Button in the navigation bar that selects the 'motionScreen' screen",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NodeIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.motionScreenButton.enabledProperty": {
-      "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.motionScreenButton.firedEmitter": {
-      "phetioDocumentation": "Emits when the button is fired No arguments.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.motionScreenButton.icon": {
-      "phetioDocumentation": "",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NodeIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.motionScreenButton.icon.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.motionScreenButton.icon.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.motionScreenButton.icon.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.motionScreenButton.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.motionScreenButton.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.motionScreenButton.pressListener.pressAction": {
-      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<SceneryEventIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.motionScreenButton.pressListener.releaseAction": {
-      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.motionScreenButton.text": {
-      "phetioDocumentation": "",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "TextIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.motionScreenButton.text.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.motionScreenButton.text.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.motionScreenButton.text.textProperty": {
-      "phetioDocumentation": "Property for the displayed text",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<StringIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.motionScreenButton.text.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.motionScreenButton.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.netForceScreenButton": {
-      "phetioDocumentation": "Button in the navigation bar that selects the 'netForceScreen' screen",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NodeIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.netForceScreenButton.enabledProperty": {
-      "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.netForceScreenButton.firedEmitter": {
-      "phetioDocumentation": "Emits when the button is fired No arguments.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.netForceScreenButton.icon": {
-      "phetioDocumentation": "",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NodeIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.netForceScreenButton.icon.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.netForceScreenButton.icon.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.netForceScreenButton.icon.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.netForceScreenButton.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.netForceScreenButton.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.netForceScreenButton.pressListener.pressAction": {
-      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<SceneryEventIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.netForceScreenButton.pressListener.releaseAction": {
-      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.netForceScreenButton.text": {
-      "phetioDocumentation": "",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "TextIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.netForceScreenButton.text.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.netForceScreenButton.text.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.netForceScreenButton.text.textProperty": {
-      "phetioDocumentation": "Property for the displayed text",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<StringIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.netForceScreenButton.text.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.netForceScreenButton.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton": {
-      "phetioDocumentation": "The button that appears at the right side of the navigation bar, which shows a menu when pressed",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PhetButtonIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.enabledProperty": {
-      "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": true,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.firedEmitter": {
-      "phetioDocumentation": "Emits when the button is fired No arguments.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu": {
-      "phetioDocumentation": "This menu is displayed when the PhET button is pressed.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PhetMenuIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule": {
-      "phetioDocumentation": "",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PhetioCapsuleIO<DialogIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype": {
-      "phetioDocumentation": "",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": true,
-      "phetioPlayback": false,
-      "phetioReadOnly": true,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "DialogIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.closeButton": {
-      "phetioDocumentation": "",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": true,
-      "phetioPlayback": false,
-      "phetioReadOnly": true,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NodeIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.closeButton.enabledProperty": {
-      "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": true,
-      "phetioPlayback": false,
-      "phetioReadOnly": true,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.closeButton.firedEmitter": {
-      "phetioDocumentation": "Emits when the button is fired No arguments.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": true,
-      "phetioPlayback": false,
-      "phetioReadOnly": true,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.closeButton.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": true,
-      "phetioPlayback": false,
-      "phetioReadOnly": true,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.closeButton.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": true,
-      "phetioPlayback": false,
-      "phetioReadOnly": true,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.closeButton.pressListener.pressAction": {
-      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": true,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<SceneryEventIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.closeButton.pressListener.releaseAction": {
-      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": true,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.closeButton.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": true,
-      "phetioPlayback": false,
-      "phetioReadOnly": true,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.isShowingProperty": {
-      "phetioDocumentation": "",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": true,
-      "phetioPlayback": false,
-      "phetioReadOnly": true,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": true,
-      "phetioPlayback": false,
-      "phetioReadOnly": true,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": true,
-      "phetioPlayback": false,
-      "phetioReadOnly": true,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.termsPrivacyAndLicensingText": {
-      "phetioDocumentation": "",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": true,
-      "phetioPlayback": false,
-      "phetioReadOnly": true,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "RichTextIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.termsPrivacyAndLicensingText.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": true,
-      "phetioPlayback": false,
-      "phetioReadOnly": true,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.termsPrivacyAndLicensingText.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": true,
-      "phetioPlayback": false,
-      "phetioReadOnly": true,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.termsPrivacyAndLicensingText.textProperty": {
-      "phetioDocumentation": "Property for the displayed text",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": true,
-      "phetioPlayback": false,
-      "phetioReadOnly": true,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<StringIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.termsPrivacyAndLicensingText.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": true,
-      "phetioPlayback": false,
-      "phetioReadOnly": true,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.thirdPartyCreditsLinkText": {
-      "phetioDocumentation": "",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": true,
-      "phetioPlayback": false,
-      "phetioReadOnly": true,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "RichTextIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.thirdPartyCreditsLinkText.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": true,
-      "phetioPlayback": false,
-      "phetioReadOnly": true,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.thirdPartyCreditsLinkText.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": true,
-      "phetioPlayback": false,
-      "phetioReadOnly": true,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.thirdPartyCreditsLinkText.textProperty": {
-      "phetioDocumentation": "Property for the displayed text",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": true,
-      "phetioPlayback": false,
-      "phetioReadOnly": true,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<StringIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.thirdPartyCreditsLinkText.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": true,
-      "phetioPlayback": false,
-      "phetioReadOnly": true,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.translationCreditsLinkText": {
-      "phetioDocumentation": "",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": true,
-      "phetioPlayback": false,
-      "phetioReadOnly": true,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "RichTextIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.translationCreditsLinkText.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": true,
-      "phetioPlayback": false,
-      "phetioReadOnly": true,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.translationCreditsLinkText.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": true,
-      "phetioPlayback": false,
-      "phetioReadOnly": true,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.translationCreditsLinkText.textProperty": {
-      "phetioDocumentation": "Property for the displayed text",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": true,
-      "phetioPlayback": false,
-      "phetioReadOnly": true,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<StringIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.translationCreditsLinkText.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": true,
-      "phetioPlayback": false,
-      "phetioReadOnly": true,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": true,
-      "phetioPlayback": false,
-      "phetioReadOnly": true,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutMenuItem": {
-      "phetioDocumentation": "This menu item shows a dialog with information about the simulation.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NodeIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutMenuItem.inputListener.firedEmitter": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<NullableIO<SceneryEventIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutMenuItem.inputListener.pressAction": {
-      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<SceneryEventIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutMenuItem.inputListener.releaseAction": {
-      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutMenuItem.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutMenuItem.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.aboutMenuItem.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": true,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.enhancedSoundMenuItem": {
-      "phetioDocumentation": "This menu item toggles between basic and enhanced sound modes. This will only be displayed if the simulation supports enhanced sounds.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NodeIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.enhancedSoundMenuItem.inputListener.firedEmitter": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<NullableIO<SceneryEventIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.enhancedSoundMenuItem.inputListener.pressAction": {
-      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<SceneryEventIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.enhancedSoundMenuItem.inputListener.releaseAction": {
-      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.enhancedSoundMenuItem.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.enhancedSoundMenuItem.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.enhancedSoundMenuItem.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.fullScreenMenuItem": {
-      "phetioDocumentation": "This menu item requests full-screen access for the simulation display.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NodeIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.fullScreenMenuItem.inputListener.firedEmitter": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<NullableIO<SceneryEventIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.fullScreenMenuItem.inputListener.pressAction": {
-      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<SceneryEventIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.fullScreenMenuItem.inputListener.releaseAction": {
-      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.fullScreenMenuItem.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.fullScreenMenuItem.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.fullScreenMenuItem.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": true,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.optionsMenuItem": {
-      "phetioDocumentation": "This menu item shows an options dialog.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NodeIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.optionsMenuItem.inputListener.firedEmitter": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<NullableIO<SceneryEventIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.optionsMenuItem.inputListener.pressAction": {
-      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<SceneryEventIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.optionsMenuItem.inputListener.releaseAction": {
-      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.optionsMenuItem.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.optionsMenuItem.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.optionsMenuItem.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": true,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.screenshotMenuItem": {
-      "phetioDocumentation": "This menu item captures a screenshot from the simulation and saves it to the file system.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NodeIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.screenshotMenuItem.inputListener.firedEmitter": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<NullableIO<SceneryEventIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.screenshotMenuItem.inputListener.pressAction": {
-      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<SceneryEventIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.screenshotMenuItem.inputListener.releaseAction": {
-      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.screenshotMenuItem.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.screenshotMenuItem.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.phetMenu.screenshotMenuItem.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": true,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.pickableProperty": {
-      "phetioDocumentation": "Set whether the phetButton will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.pressListener.pressAction": {
-      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<SceneryEventIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.phetButton.pressListener.releaseAction": {
-      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.titleTextNode": {
-      "phetioDocumentation": "Displays the title of the simulation in the navigation bar (bottom left)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "TextIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.titleTextNode.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.general.navigationBar.titleTextNode.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.titleTextNode.textProperty": {
-      "phetioDocumentation": "Property for the displayed text",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<StringIO>"
-    },
-    "forcesAndMotionBasics.general.navigationBar.titleTextNode.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": true,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.phetioCommandProcessor": {
+    "forcesAndMotionBasics.general.model.phetioCommandProcessor": {
       "phetioDocumentation": "Processes messages from the wrapper frame and returns the results. This serves as the source of PhET-iO data stream messages when commands are invoked from the wrapper.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -27652,8 +25637,8 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PhetioCommandProcessorIO"
     },
-    "forcesAndMotionBasics.general.resizeAction": {
-      "phetioDocumentation": "Executes when the sim is resized The arguments are:<br/><ol><li>width: NumberIO</li><br/><li>height: NumberIO</li></ol>",
+    "forcesAndMotionBasics.general.model.resizeAction": {
+      "phetioDocumentation": "Executes when the sim is resized. Values are the sim dimensions in CSS pixels. The arguments are:<br/><ol><li>width: NumberIO</li><br/><li>height: NumberIO</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -27665,8 +25650,8 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<NumberIO, NumberIO>"
     },
-    "forcesAndMotionBasics.general.screenIndexProperty": {
-      "phetioDocumentation": "Indicates which sim screen is selected (0-indexed). Note that the home screen does not have an index. To control the home screen see \"showHomeScreenProperty\".",
+    "forcesAndMotionBasics.general.model.screenProperty": {
+      "phetioDocumentation": "Which sim screen is selected, including the home screen",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": true,
@@ -27676,36 +25661,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioReadOnly": false,
       "phetioState": true,
       "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
+      "phetioTypeName": "PropertyIO<ScreenIO>"
     },
-    "forcesAndMotionBasics.general.showHomeScreenProperty": {
-      "phetioDocumentation": "Whether or not home screen is displayed. This is independent of the \"current sim screen\" stored in the \"screenIndexProperty.\"",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": true,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.soundManager.enabledProperty": {
-      "phetioDocumentation": "If this sim contains sound, then this Property will toggle whether sound is enabled ordisabled.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.general.stepSimulationAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>dt: NumberIO</li></ol>",
+    "forcesAndMotionBasics.general.model.stepSimulationAction": {
+      "phetioDocumentation": "A function that steps time forward. The arguments are:<br/><ol><li>dt: NumberIO - The amount of time stepped in each call, in seconds.</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -27716,6 +25675,2125 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioState": false,
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<NumberIO>"
+    },
+    "forcesAndMotionBasics.general.view.barrierRectangle": {
+      "phetioDocumentation": "Semi-transparent barrier used to block input events when a dialog is shown, also fades out the background",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NodeIO"
+    },
+    "forcesAndMotionBasics.general.view.barrierRectangle.inputListener.firedEmitter": {
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "EmitterIO<NullableIO<SceneryEventIO>>"
+    },
+    "forcesAndMotionBasics.general.view.barrierRectangle.inputListener.pressAction": {
+      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<SceneryEventIO>"
+    },
+    "forcesAndMotionBasics.general.view.barrierRectangle.inputListener.releaseAction": {
+      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
+    },
+    "forcesAndMotionBasics.general.view.barrierRectangle.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "forcesAndMotionBasics.general.view.barrierRectangle.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "forcesAndMotionBasics.general.view.barrierRectangle.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.accelerationScreenButton": {
+      "phetioDocumentation": "Button in the navigation bar that selects the 'accelerationScreen' screen",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NodeIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.accelerationScreenButton.enabledProperty": {
+      "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.accelerationScreenButton.firedEmitter": {
+      "phetioDocumentation": "Emits when the button is fired No arguments.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "EmitterIO<>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.accelerationScreenButton.icon": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NodeIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.accelerationScreenButton.icon.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.accelerationScreenButton.icon.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.accelerationScreenButton.icon.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.accelerationScreenButton.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.accelerationScreenButton.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.accelerationScreenButton.pressListener.pressAction": {
+      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<SceneryEventIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.accelerationScreenButton.pressListener.releaseAction": {
+      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.accelerationScreenButton.text": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "TextIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.accelerationScreenButton.text.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.accelerationScreenButton.text.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.accelerationScreenButton.text.textProperty": {
+      "phetioDocumentation": "Property for the displayed text",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<StringIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.accelerationScreenButton.text.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.accelerationScreenButton.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.frictionScreenButton": {
+      "phetioDocumentation": "Button in the navigation bar that selects the 'frictionScreen' screen",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NodeIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.frictionScreenButton.enabledProperty": {
+      "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.frictionScreenButton.firedEmitter": {
+      "phetioDocumentation": "Emits when the button is fired No arguments.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "EmitterIO<>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.frictionScreenButton.icon": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NodeIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.frictionScreenButton.icon.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.frictionScreenButton.icon.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.frictionScreenButton.icon.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.frictionScreenButton.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.frictionScreenButton.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.frictionScreenButton.pressListener.pressAction": {
+      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<SceneryEventIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.frictionScreenButton.pressListener.releaseAction": {
+      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.frictionScreenButton.text": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "TextIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.frictionScreenButton.text.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.frictionScreenButton.text.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.frictionScreenButton.text.textProperty": {
+      "phetioDocumentation": "Property for the displayed text",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<StringIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.frictionScreenButton.text.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.frictionScreenButton.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.homeButton": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NodeIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.homeButton.enabledProperty": {
+      "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.homeButton.firedEmitter": {
+      "phetioDocumentation": "Emits when the button is fired No arguments.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "EmitterIO<>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.homeButton.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.homeButton.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.homeButton.pressListener.pressAction": {
+      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<SceneryEventIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.homeButton.pressListener.releaseAction": {
+      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.homeButton.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.motionScreenButton": {
+      "phetioDocumentation": "Button in the navigation bar that selects the 'motionScreen' screen",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NodeIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.motionScreenButton.enabledProperty": {
+      "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.motionScreenButton.firedEmitter": {
+      "phetioDocumentation": "Emits when the button is fired No arguments.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "EmitterIO<>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.motionScreenButton.icon": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NodeIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.motionScreenButton.icon.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.motionScreenButton.icon.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.motionScreenButton.icon.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.motionScreenButton.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.motionScreenButton.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.motionScreenButton.pressListener.pressAction": {
+      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<SceneryEventIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.motionScreenButton.pressListener.releaseAction": {
+      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.motionScreenButton.text": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "TextIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.motionScreenButton.text.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.motionScreenButton.text.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.motionScreenButton.text.textProperty": {
+      "phetioDocumentation": "Property for the displayed text",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<StringIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.motionScreenButton.text.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.motionScreenButton.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.netForceScreenButton": {
+      "phetioDocumentation": "Button in the navigation bar that selects the 'netForceScreen' screen",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NodeIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.netForceScreenButton.enabledProperty": {
+      "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.netForceScreenButton.firedEmitter": {
+      "phetioDocumentation": "Emits when the button is fired No arguments.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "EmitterIO<>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.netForceScreenButton.icon": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NodeIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.netForceScreenButton.icon.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.netForceScreenButton.icon.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.netForceScreenButton.icon.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.netForceScreenButton.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.netForceScreenButton.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.netForceScreenButton.pressListener.pressAction": {
+      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<SceneryEventIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.netForceScreenButton.pressListener.releaseAction": {
+      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.netForceScreenButton.text": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "TextIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.netForceScreenButton.text.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.netForceScreenButton.text.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.netForceScreenButton.text.textProperty": {
+      "phetioDocumentation": "Property for the displayed text",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<StringIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.netForceScreenButton.text.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.netForceScreenButton.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton": {
+      "phetioDocumentation": "The button that appears at the right side of the navigation bar, which shows a menu when pressed",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PhetButtonIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.enabledProperty": {
+      "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": true,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.firedEmitter": {
+      "phetioDocumentation": "Emits when the button is fired No arguments.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "EmitterIO<>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu": {
+      "phetioDocumentation": "This menu is displayed when the PhET button is pressed.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PhetMenuIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutDialogCapsule": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PhetioCapsuleIO<DialogIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": true,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "DialogIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.closeButton": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": true,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NodeIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.closeButton.enabledProperty": {
+      "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": true,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.closeButton.firedEmitter": {
+      "phetioDocumentation": "Emits when the button is fired No arguments.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": true,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "EmitterIO<>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.closeButton.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": true,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.closeButton.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": true,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.closeButton.pressListener.pressAction": {
+      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": true,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<SceneryEventIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.closeButton.pressListener.releaseAction": {
+      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": true,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.closeButton.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": true,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.isShowingProperty": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": true,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": true,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": true,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.termsPrivacyAndLicensingLinkText": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": true,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "RichTextIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.termsPrivacyAndLicensingLinkText.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": true,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.termsPrivacyAndLicensingLinkText.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": true,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.termsPrivacyAndLicensingLinkText.textProperty": {
+      "phetioDocumentation": "Property for the displayed text",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": true,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<StringIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.termsPrivacyAndLicensingLinkText.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": true,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.thirdPartyCreditsLinkText": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": true,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "RichTextIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.thirdPartyCreditsLinkText.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": true,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.thirdPartyCreditsLinkText.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": true,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.thirdPartyCreditsLinkText.textProperty": {
+      "phetioDocumentation": "Property for the displayed text",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": true,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<StringIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.thirdPartyCreditsLinkText.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": true,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.translationCreditsLinkText": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": true,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "RichTextIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.translationCreditsLinkText.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": true,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.translationCreditsLinkText.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": true,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.translationCreditsLinkText.textProperty": {
+      "phetioDocumentation": "Property for the displayed text",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": true,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<StringIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.translationCreditsLinkText.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": true,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutDialogCapsule.archetype.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": true,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutMenuItem": {
+      "phetioDocumentation": "This menu item shows a dialog with information about the simulation.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NodeIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutMenuItem.inputListener.firedEmitter": {
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "EmitterIO<NullableIO<SceneryEventIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutMenuItem.inputListener.pressAction": {
+      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<SceneryEventIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutMenuItem.inputListener.releaseAction": {
+      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutMenuItem.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutMenuItem.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.aboutMenuItem.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": true,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.enhancedSoundMenuItem": {
+      "phetioDocumentation": "This menu item toggles between basic and enhanced sound modes. This will only be displayed if the simulation supports enhanced sounds.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NodeIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.enhancedSoundMenuItem.inputListener.firedEmitter": {
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "EmitterIO<NullableIO<SceneryEventIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.enhancedSoundMenuItem.inputListener.pressAction": {
+      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<SceneryEventIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.enhancedSoundMenuItem.inputListener.releaseAction": {
+      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.enhancedSoundMenuItem.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.enhancedSoundMenuItem.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.enhancedSoundMenuItem.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": true,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.fullScreenMenuItem": {
+      "phetioDocumentation": "This menu item requests full-screen access for the simulation display.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NodeIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.fullScreenMenuItem.inputListener.firedEmitter": {
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "EmitterIO<NullableIO<SceneryEventIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.fullScreenMenuItem.inputListener.pressAction": {
+      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<SceneryEventIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.fullScreenMenuItem.inputListener.releaseAction": {
+      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.fullScreenMenuItem.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.fullScreenMenuItem.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.fullScreenMenuItem.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": true,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.optionsMenuItem": {
+      "phetioDocumentation": "This menu item shows an options dialog.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NodeIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.optionsMenuItem.inputListener.firedEmitter": {
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "EmitterIO<NullableIO<SceneryEventIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.optionsMenuItem.inputListener.pressAction": {
+      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<SceneryEventIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.optionsMenuItem.inputListener.releaseAction": {
+      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.optionsMenuItem.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.optionsMenuItem.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.optionsMenuItem.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": true,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.screenshotMenuItem": {
+      "phetioDocumentation": "This menu item captures a screenshot from the simulation and saves it to the file system.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NodeIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.screenshotMenuItem.inputListener.firedEmitter": {
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "EmitterIO<NullableIO<SceneryEventIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.screenshotMenuItem.inputListener.pressAction": {
+      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<SceneryEventIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.screenshotMenuItem.inputListener.releaseAction": {
+      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.screenshotMenuItem.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.screenshotMenuItem.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.phetMenu.screenshotMenuItem.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": true,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.pickableProperty": {
+      "phetioDocumentation": "Set whether the phetButton will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.pressListener.pressAction": {
+      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<SceneryEventIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.phetButton.pressListener.releaseAction": {
+      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.titleTextNode": {
+      "phetioDocumentation": "Displays the title of the simulation in the navigation bar (bottom left)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "TextIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.titleTextNode.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.titleTextNode.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.titleTextNode.textProperty": {
+      "phetioDocumentation": "Property for the displayed text",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": true,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<StringIO>"
+    },
+    "forcesAndMotionBasics.general.view.navigationBar.titleTextNode.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": true,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.soundManager": {
+      "phetioDocumentation": "Controls the simulation's sound. Note that this only applies to sims that support sound.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ObjectIO"
+    },
+    "forcesAndMotionBasics.general.view.soundManager.enabledProperty": {
+      "phetioDocumentation": "If the sim contains sound, then this Property will toggle whether sound is enabled or disabled.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": true,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.general.view.soundManager.enhancedSoundEnabledProperty": {
+      "phetioDocumentation": "If the sim contains sound, then this Property will toggle whether \"enhanced\" sound is enabled or disabled. Note that not all simulations that support sound also support enhanced sound.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": true,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.homeScreen": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": true,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ScreenIO"
     },
     "forcesAndMotionBasics.homeScreen.activeProperty": {
       "phetioDocumentation": "Indicates whether the screen is currently displayed in the simulation.  For single-screen simulations, there is only one screen and it is always active.",
@@ -27730,6 +27808,19 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
+    "forcesAndMotionBasics.homeScreen.model.selectedScreenProperty": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<ReferenceIO>"
+    },
     "forcesAndMotionBasics.homeScreen.view": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
@@ -27743,8 +27834,8 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NodeIO"
     },
-    "forcesAndMotionBasics.homeScreen.view.accelerationScreenLargeButton": {
-      "phetioDocumentation": "A pressable button in the simulation, in the home screen",
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.accelerationScreenButton": {
+      "phetioDocumentation": "A button on the home screen for choosing a simulation screen",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
@@ -27756,7 +27847,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NodeIO"
     },
-    "forcesAndMotionBasics.homeScreen.view.accelerationScreenLargeButton.inputListener.firedEmitter": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.accelerationScreenButton.inputListener.firedEmitter": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -27769,7 +27860,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "EmitterIO<NullableIO<SceneryEventIO>>"
     },
-    "forcesAndMotionBasics.homeScreen.view.accelerationScreenLargeButton.inputListener.pressAction": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.accelerationScreenButton.inputListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -27782,7 +27873,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<SceneryEventIO>"
     },
-    "forcesAndMotionBasics.homeScreen.view.accelerationScreenLargeButton.inputListener.releaseAction": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.accelerationScreenButton.inputListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -27795,7 +27886,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
     },
-    "forcesAndMotionBasics.homeScreen.view.accelerationScreenLargeButton.opacityProperty": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.accelerationScreenButton.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -27808,7 +27899,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "forcesAndMotionBasics.homeScreen.view.accelerationScreenLargeButton.pickableProperty": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.accelerationScreenButton.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -27821,7 +27912,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "forcesAndMotionBasics.homeScreen.view.accelerationScreenLargeButton.text": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.accelerationScreenButton.text": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -27834,7 +27925,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "TextIO"
     },
-    "forcesAndMotionBasics.homeScreen.view.accelerationScreenLargeButton.text.opacityProperty": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.accelerationScreenButton.text.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -27847,7 +27938,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "forcesAndMotionBasics.homeScreen.view.accelerationScreenLargeButton.text.pickableProperty": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.accelerationScreenButton.text.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -27860,7 +27951,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "forcesAndMotionBasics.homeScreen.view.accelerationScreenLargeButton.text.textProperty": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.accelerationScreenButton.text.textProperty": {
       "phetioDocumentation": "Property for the displayed text",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -27873,7 +27964,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<StringIO>"
     },
-    "forcesAndMotionBasics.homeScreen.view.accelerationScreenLargeButton.text.visibleProperty": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.accelerationScreenButton.text.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -27886,7 +27977,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "forcesAndMotionBasics.homeScreen.view.accelerationScreenLargeButton.visibleProperty": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.accelerationScreenButton.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -27899,8 +27990,8 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "forcesAndMotionBasics.homeScreen.view.accelerationScreenSmallButton": {
-      "phetioDocumentation": "A pressable button in the simulation, in the home screen",
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.frictionScreenButton": {
+      "phetioDocumentation": "A button on the home screen for choosing a simulation screen",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
@@ -27912,7 +28003,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NodeIO"
     },
-    "forcesAndMotionBasics.homeScreen.view.accelerationScreenSmallButton.inputListener.firedEmitter": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.frictionScreenButton.inputListener.firedEmitter": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -27925,7 +28016,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "EmitterIO<NullableIO<SceneryEventIO>>"
     },
-    "forcesAndMotionBasics.homeScreen.view.accelerationScreenSmallButton.inputListener.pressAction": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.frictionScreenButton.inputListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -27938,7 +28029,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<SceneryEventIO>"
     },
-    "forcesAndMotionBasics.homeScreen.view.accelerationScreenSmallButton.inputListener.releaseAction": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.frictionScreenButton.inputListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -27951,7 +28042,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
     },
-    "forcesAndMotionBasics.homeScreen.view.accelerationScreenSmallButton.opacityProperty": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.frictionScreenButton.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -27964,7 +28055,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "forcesAndMotionBasics.homeScreen.view.accelerationScreenSmallButton.pickableProperty": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.frictionScreenButton.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -27977,7 +28068,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "forcesAndMotionBasics.homeScreen.view.accelerationScreenSmallButton.text": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.frictionScreenButton.text": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -27990,7 +28081,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "TextIO"
     },
-    "forcesAndMotionBasics.homeScreen.view.accelerationScreenSmallButton.text.opacityProperty": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.frictionScreenButton.text.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -28003,7 +28094,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "forcesAndMotionBasics.homeScreen.view.accelerationScreenSmallButton.text.pickableProperty": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.frictionScreenButton.text.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -28016,7 +28107,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "forcesAndMotionBasics.homeScreen.view.accelerationScreenSmallButton.text.textProperty": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.frictionScreenButton.text.textProperty": {
       "phetioDocumentation": "Property for the displayed text",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -28029,7 +28120,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<StringIO>"
     },
-    "forcesAndMotionBasics.homeScreen.view.accelerationScreenSmallButton.text.visibleProperty": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.frictionScreenButton.text.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -28042,7 +28133,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "forcesAndMotionBasics.homeScreen.view.accelerationScreenSmallButton.visibleProperty": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.frictionScreenButton.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -28055,8 +28146,8 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "forcesAndMotionBasics.homeScreen.view.frictionScreenLargeButton": {
-      "phetioDocumentation": "A pressable button in the simulation, in the home screen",
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.motionScreenButton": {
+      "phetioDocumentation": "A button on the home screen for choosing a simulation screen",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
@@ -28068,7 +28159,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NodeIO"
     },
-    "forcesAndMotionBasics.homeScreen.view.frictionScreenLargeButton.inputListener.firedEmitter": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.motionScreenButton.inputListener.firedEmitter": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -28081,7 +28172,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "EmitterIO<NullableIO<SceneryEventIO>>"
     },
-    "forcesAndMotionBasics.homeScreen.view.frictionScreenLargeButton.inputListener.pressAction": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.motionScreenButton.inputListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -28094,7 +28185,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<SceneryEventIO>"
     },
-    "forcesAndMotionBasics.homeScreen.view.frictionScreenLargeButton.inputListener.releaseAction": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.motionScreenButton.inputListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -28107,7 +28198,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
     },
-    "forcesAndMotionBasics.homeScreen.view.frictionScreenLargeButton.opacityProperty": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.motionScreenButton.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -28120,7 +28211,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "forcesAndMotionBasics.homeScreen.view.frictionScreenLargeButton.pickableProperty": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.motionScreenButton.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -28133,7 +28224,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "forcesAndMotionBasics.homeScreen.view.frictionScreenLargeButton.text": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.motionScreenButton.text": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -28146,7 +28237,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "TextIO"
     },
-    "forcesAndMotionBasics.homeScreen.view.frictionScreenLargeButton.text.opacityProperty": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.motionScreenButton.text.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -28159,7 +28250,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "forcesAndMotionBasics.homeScreen.view.frictionScreenLargeButton.text.pickableProperty": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.motionScreenButton.text.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -28172,7 +28263,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "forcesAndMotionBasics.homeScreen.view.frictionScreenLargeButton.text.textProperty": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.motionScreenButton.text.textProperty": {
       "phetioDocumentation": "Property for the displayed text",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -28185,7 +28276,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<StringIO>"
     },
-    "forcesAndMotionBasics.homeScreen.view.frictionScreenLargeButton.text.visibleProperty": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.motionScreenButton.text.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -28198,7 +28289,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "forcesAndMotionBasics.homeScreen.view.frictionScreenLargeButton.visibleProperty": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.motionScreenButton.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -28211,8 +28302,8 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "forcesAndMotionBasics.homeScreen.view.frictionScreenSmallButton": {
-      "phetioDocumentation": "A pressable button in the simulation, in the home screen",
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.netForceScreenButton": {
+      "phetioDocumentation": "A button on the home screen for choosing a simulation screen",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
       "phetioFeatured": false,
@@ -28224,7 +28315,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NodeIO"
     },
-    "forcesAndMotionBasics.homeScreen.view.frictionScreenSmallButton.inputListener.firedEmitter": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.netForceScreenButton.inputListener.firedEmitter": {
       "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -28237,7 +28328,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "EmitterIO<NullableIO<SceneryEventIO>>"
     },
-    "forcesAndMotionBasics.homeScreen.view.frictionScreenSmallButton.inputListener.pressAction": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.netForceScreenButton.inputListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -28250,7 +28341,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<SceneryEventIO>"
     },
-    "forcesAndMotionBasics.homeScreen.view.frictionScreenSmallButton.inputListener.releaseAction": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.netForceScreenButton.inputListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -28263,7 +28354,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
     },
-    "forcesAndMotionBasics.homeScreen.view.frictionScreenSmallButton.opacityProperty": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.netForceScreenButton.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -28276,7 +28367,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "forcesAndMotionBasics.homeScreen.view.frictionScreenSmallButton.pickableProperty": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.netForceScreenButton.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -28289,7 +28380,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "forcesAndMotionBasics.homeScreen.view.frictionScreenSmallButton.text": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.netForceScreenButton.text": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -28302,7 +28393,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "TextIO"
     },
-    "forcesAndMotionBasics.homeScreen.view.frictionScreenSmallButton.text.opacityProperty": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.netForceScreenButton.text.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -28315,7 +28406,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "forcesAndMotionBasics.homeScreen.view.frictionScreenSmallButton.text.pickableProperty": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.netForceScreenButton.text.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -28328,7 +28419,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "forcesAndMotionBasics.homeScreen.view.frictionScreenSmallButton.text.textProperty": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.netForceScreenButton.text.textProperty": {
       "phetioDocumentation": "Property for the displayed text",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -28341,7 +28432,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<StringIO>"
     },
-    "forcesAndMotionBasics.homeScreen.view.frictionScreenSmallButton.text.visibleProperty": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.netForceScreenButton.text.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -28354,631 +28445,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "forcesAndMotionBasics.homeScreen.view.frictionScreenSmallButton.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.homeScreen.view.motionScreenLargeButton": {
-      "phetioDocumentation": "A pressable button in the simulation, in the home screen",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NodeIO"
-    },
-    "forcesAndMotionBasics.homeScreen.view.motionScreenLargeButton.inputListener.firedEmitter": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<NullableIO<SceneryEventIO>>"
-    },
-    "forcesAndMotionBasics.homeScreen.view.motionScreenLargeButton.inputListener.pressAction": {
-      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<SceneryEventIO>"
-    },
-    "forcesAndMotionBasics.homeScreen.view.motionScreenLargeButton.inputListener.releaseAction": {
-      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
-    },
-    "forcesAndMotionBasics.homeScreen.view.motionScreenLargeButton.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.homeScreen.view.motionScreenLargeButton.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.homeScreen.view.motionScreenLargeButton.text": {
-      "phetioDocumentation": "",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "TextIO"
-    },
-    "forcesAndMotionBasics.homeScreen.view.motionScreenLargeButton.text.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.homeScreen.view.motionScreenLargeButton.text.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.homeScreen.view.motionScreenLargeButton.text.textProperty": {
-      "phetioDocumentation": "Property for the displayed text",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<StringIO>"
-    },
-    "forcesAndMotionBasics.homeScreen.view.motionScreenLargeButton.text.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.homeScreen.view.motionScreenLargeButton.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.homeScreen.view.motionScreenSmallButton": {
-      "phetioDocumentation": "A pressable button in the simulation, in the home screen",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NodeIO"
-    },
-    "forcesAndMotionBasics.homeScreen.view.motionScreenSmallButton.inputListener.firedEmitter": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<NullableIO<SceneryEventIO>>"
-    },
-    "forcesAndMotionBasics.homeScreen.view.motionScreenSmallButton.inputListener.pressAction": {
-      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<SceneryEventIO>"
-    },
-    "forcesAndMotionBasics.homeScreen.view.motionScreenSmallButton.inputListener.releaseAction": {
-      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
-    },
-    "forcesAndMotionBasics.homeScreen.view.motionScreenSmallButton.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.homeScreen.view.motionScreenSmallButton.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.homeScreen.view.motionScreenSmallButton.text": {
-      "phetioDocumentation": "",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "TextIO"
-    },
-    "forcesAndMotionBasics.homeScreen.view.motionScreenSmallButton.text.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.homeScreen.view.motionScreenSmallButton.text.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.homeScreen.view.motionScreenSmallButton.text.textProperty": {
-      "phetioDocumentation": "Property for the displayed text",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<StringIO>"
-    },
-    "forcesAndMotionBasics.homeScreen.view.motionScreenSmallButton.text.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.homeScreen.view.motionScreenSmallButton.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.homeScreen.view.netForceScreenLargeButton": {
-      "phetioDocumentation": "A pressable button in the simulation, in the home screen",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NodeIO"
-    },
-    "forcesAndMotionBasics.homeScreen.view.netForceScreenLargeButton.inputListener.firedEmitter": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<NullableIO<SceneryEventIO>>"
-    },
-    "forcesAndMotionBasics.homeScreen.view.netForceScreenLargeButton.inputListener.pressAction": {
-      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<SceneryEventIO>"
-    },
-    "forcesAndMotionBasics.homeScreen.view.netForceScreenLargeButton.inputListener.releaseAction": {
-      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
-    },
-    "forcesAndMotionBasics.homeScreen.view.netForceScreenLargeButton.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.homeScreen.view.netForceScreenLargeButton.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.homeScreen.view.netForceScreenLargeButton.text": {
-      "phetioDocumentation": "",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "TextIO"
-    },
-    "forcesAndMotionBasics.homeScreen.view.netForceScreenLargeButton.text.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.homeScreen.view.netForceScreenLargeButton.text.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.homeScreen.view.netForceScreenLargeButton.text.textProperty": {
-      "phetioDocumentation": "Property for the displayed text",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<StringIO>"
-    },
-    "forcesAndMotionBasics.homeScreen.view.netForceScreenLargeButton.text.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.homeScreen.view.netForceScreenLargeButton.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.homeScreen.view.netForceScreenSmallButton": {
-      "phetioDocumentation": "A pressable button in the simulation, in the home screen",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NodeIO"
-    },
-    "forcesAndMotionBasics.homeScreen.view.netForceScreenSmallButton.inputListener.firedEmitter": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<NullableIO<SceneryEventIO>>"
-    },
-    "forcesAndMotionBasics.homeScreen.view.netForceScreenSmallButton.inputListener.pressAction": {
-      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<SceneryEventIO>"
-    },
-    "forcesAndMotionBasics.homeScreen.view.netForceScreenSmallButton.inputListener.releaseAction": {
-      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
-    },
-    "forcesAndMotionBasics.homeScreen.view.netForceScreenSmallButton.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.homeScreen.view.netForceScreenSmallButton.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.homeScreen.view.netForceScreenSmallButton.text": {
-      "phetioDocumentation": "",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "TextIO"
-    },
-    "forcesAndMotionBasics.homeScreen.view.netForceScreenSmallButton.text.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.homeScreen.view.netForceScreenSmallButton.text.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.homeScreen.view.netForceScreenSmallButton.text.textProperty": {
-      "phetioDocumentation": "Property for the displayed text",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<StringIO>"
-    },
-    "forcesAndMotionBasics.homeScreen.view.netForceScreenSmallButton.text.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.homeScreen.view.netForceScreenSmallButton.visibleProperty": {
+    "forcesAndMotionBasics.homeScreen.view.buttonGroup.netForceScreenButton.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -29094,6 +28561,19 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioState": true,
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.motionScreen": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": true,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ScreenIO"
     },
     "forcesAndMotionBasics.motionScreen.activeProperty": {
       "phetioDocumentation": "Indicates whether the screen is currently displayed in the simulation.  For single-screen simulations, there is only one screen and it is always active.",
@@ -30591,7 +30071,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
     "forcesAndMotionBasics.motionScreen.view.appliedForceSlider.enabledRangeProperty": {
-      "phetioDocumentation": "",
+      "phetioDocumentation": "Sliders support two ranges: the outer range which specifies the min and max of the track and the enabledRangeProperty, which determines how low and high the thumb can be dragged within the track.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -30708,7 +30188,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.motionScreen.view.appliedForceSlider.thumbInputListener.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -30721,7 +30201,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.motionScreen.view.appliedForceSlider.thumbInputListener.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -30734,7 +30214,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.motionScreen.view.appliedForceSlider.thumbInputListener.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -30968,7 +30448,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.motionScreen.view.appliedForceSlider.track.trackInputListener.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -30981,7 +30461,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.motionScreen.view.appliedForceSlider.track.trackInputListener.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -30994,7 +30474,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.motionScreen.view.appliedForceSlider.track.trackInputListener.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -31123,6 +30603,214 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NodeIO"
     },
+    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.decrementCoarseButton": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NodeIO"
+    },
+    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.decrementCoarseButton.enabledProperty": {
+      "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.decrementCoarseButton.firedEmitter": {
+      "phetioDocumentation": "Emits when the button is fired No arguments.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "EmitterIO<>"
+    },
+    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.decrementCoarseButton.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.decrementCoarseButton.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.decrementCoarseButton.pressListener.pressAction": {
+      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<SceneryEventIO>"
+    },
+    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.decrementCoarseButton.pressListener.releaseAction": {
+      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
+    },
+    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.decrementCoarseButton.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": true,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.decrementFineButton": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NodeIO"
+    },
+    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.decrementFineButton.enabledProperty": {
+      "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": true,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.decrementFineButton.firedEmitter": {
+      "phetioDocumentation": "Emits when the button is fired No arguments.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "EmitterIO<>"
+    },
+    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.decrementFineButton.opacityProperty": {
+      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "NumberPropertyIO"
+    },
+    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.decrementFineButton.pickableProperty": {
+      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+    },
+    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.decrementFineButton.pressListener.pressAction": {
+      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<SceneryEventIO>"
+    },
+    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.decrementFineButton.pressListener.releaseAction": {
+      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+      "phetioDynamicElement": false,
+      "phetioEventType": "USER",
+      "phetioFeatured": false,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
+    },
+    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.decrementFineButton.visibleProperty": {
+      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": true,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": true,
+      "phetioStudioControl": true,
+      "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
     "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.enabledProperty": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
@@ -31136,7 +30824,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.leftCoarseButton": {
+    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.incrementCoarseButton": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -31149,20 +30837,20 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NodeIO"
     },
-    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.leftCoarseButton.enabledProperty": {
+    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.incrementCoarseButton.enabledProperty": {
       "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
-      "phetioFeatured": true,
+      "phetioFeatured": false,
       "phetioHighFrequency": false,
       "phetioIsArchetype": false,
       "phetioPlayback": false,
-      "phetioReadOnly": false,
+      "phetioReadOnly": true,
       "phetioState": true,
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.leftCoarseButton.firedEmitter": {
+    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.incrementCoarseButton.firedEmitter": {
       "phetioDocumentation": "Emits when the button is fired No arguments.",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -31175,7 +30863,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "EmitterIO<>"
     },
-    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.leftCoarseButton.opacityProperty": {
+    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.incrementCoarseButton.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -31188,7 +30876,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.leftCoarseButton.pickableProperty": {
+    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.incrementCoarseButton.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -31201,7 +30889,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.leftCoarseButton.pressListener.pressAction": {
+    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.incrementCoarseButton.pressListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -31214,7 +30902,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<SceneryEventIO>"
     },
-    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.leftCoarseButton.pressListener.releaseAction": {
+    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.incrementCoarseButton.pressListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -31227,7 +30915,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
     },
-    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.leftCoarseButton.visibleProperty": {
+    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.incrementCoarseButton.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -31240,7 +30928,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.leftFineButton": {
+    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.incrementFineButton": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -31253,20 +30941,20 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NodeIO"
     },
-    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.leftFineButton.enabledProperty": {
+    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.incrementFineButton.enabledProperty": {
       "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
-      "phetioFeatured": true,
+      "phetioFeatured": false,
       "phetioHighFrequency": false,
       "phetioIsArchetype": false,
       "phetioPlayback": false,
-      "phetioReadOnly": false,
+      "phetioReadOnly": true,
       "phetioState": true,
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
     },
-    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.leftFineButton.firedEmitter": {
+    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.incrementFineButton.firedEmitter": {
       "phetioDocumentation": "Emits when the button is fired No arguments.",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -31279,7 +30967,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "EmitterIO<>"
     },
-    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.leftFineButton.opacityProperty": {
+    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.incrementFineButton.opacityProperty": {
       "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -31292,7 +30980,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "NumberPropertyIO"
     },
-    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.leftFineButton.pickableProperty": {
+    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.incrementFineButton.pickableProperty": {
       "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -31305,7 +30993,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.leftFineButton.pressListener.pressAction": {
+    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.incrementFineButton.pressListener.pressAction": {
       "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -31318,7 +31006,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<SceneryEventIO>"
     },
-    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.leftFineButton.pressListener.releaseAction": {
+    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.incrementFineButton.pressListener.releaseAction": {
       "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "USER",
@@ -31331,7 +31019,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
     },
-    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.leftFineButton.visibleProperty": {
+    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.incrementFineButton.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -31487,7 +31175,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
     },
-    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.rightCoarseButton": {
+    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.property": {
       "phetioDocumentation": "",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
@@ -31495,205 +31183,10 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioHighFrequency": false,
       "phetioIsArchetype": false,
       "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NodeIO"
-    },
-    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.rightCoarseButton.enabledProperty": {
-      "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": true,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
+      "phetioReadOnly": true,
       "phetioState": true,
       "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.rightCoarseButton.firedEmitter": {
-      "phetioDocumentation": "Emits when the button is fired No arguments.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<>"
-    },
-    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.rightCoarseButton.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.rightCoarseButton.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.rightCoarseButton.pressListener.pressAction": {
-      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<SceneryEventIO>"
-    },
-    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.rightCoarseButton.pressListener.releaseAction": {
-      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
-    },
-    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.rightCoarseButton.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": true,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.rightFineButton": {
-      "phetioDocumentation": "",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NodeIO"
-    },
-    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.rightFineButton.enabledProperty": {
-      "phetioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": true,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
-    },
-    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.rightFineButton.firedEmitter": {
-      "phetioDocumentation": "Emits when the button is fired No arguments.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "EmitterIO<>"
-    },
-    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.rightFineButton.opacityProperty": {
-      "phetioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "NumberPropertyIO"
-    },
-    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.rightFineButton.pickableProperty": {
-      "phetioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
-    },
-    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.rightFineButton.pressListener.pressAction": {
-      "phetioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<SceneryEventIO>"
-    },
-    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.rightFineButton.pressListener.releaseAction": {
-      "phetioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
-      "phetioDynamicElement": false,
-      "phetioEventType": "USER",
-      "phetioFeatured": false,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": false,
-      "phetioStudioControl": true,
-      "phetioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
-    },
-    "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.rightFineButton.visibleProperty": {
-      "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
-      "phetioDynamicElement": false,
-      "phetioEventType": "MODEL",
-      "phetioFeatured": true,
-      "phetioHighFrequency": false,
-      "phetioIsArchetype": false,
-      "phetioPlayback": false,
-      "phetioReadOnly": false,
-      "phetioState": true,
-      "phetioStudioControl": true,
-      "phetioTypeName": "PropertyIO<BooleanIO>"
+      "phetioTypeName": "LinkedElementIO"
     },
     "forcesAndMotionBasics.motionScreen.view.appliedForceSpinner.visibleProperty": {
       "phetioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
@@ -32736,7 +32229,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.motionScreen.view.crate1.dragHandler.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -32749,7 +32242,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.motionScreen.view.crate1.dragHandler.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -32762,7 +32255,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.motionScreen.view.crate1.dragHandler.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -33074,7 +32567,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.motionScreen.view.crate2.dragHandler.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -33087,7 +32580,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.motionScreen.view.crate2.dragHandler.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -33100,7 +32593,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.motionScreen.view.crate2.dragHandler.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -33646,7 +33139,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.motionScreen.view.fridge.dragHandler.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -33659,7 +33152,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.motionScreen.view.fridge.dragHandler.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -33672,7 +33165,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.motionScreen.view.fridge.dragHandler.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -33984,7 +33477,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.motionScreen.view.girl.dragHandler.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -33997,7 +33490,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.motionScreen.view.girl.dragHandler.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -34010,7 +33503,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.motionScreen.view.girl.dragHandler.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -34426,7 +33919,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.motionScreen.view.man.dragHandler.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -34439,7 +33932,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.motionScreen.view.man.dragHandler.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -34452,7 +33945,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.motionScreen.view.man.dragHandler.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -35232,7 +34725,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.motionScreen.view.mystery.dragHandler.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -35245,7 +34738,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.motionScreen.view.mystery.dragHandler.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -35258,7 +34751,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.motionScreen.view.mystery.dragHandler.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -35765,7 +35258,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.motionScreen.view.pusherNode.dragHandler.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -35778,7 +35271,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.motionScreen.view.pusherNode.dragHandler.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -35791,7 +35284,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.motionScreen.view.pusherNode.dragHandler.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -40224,7 +39717,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.motionScreen.view.trash.dragHandler.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -40237,7 +39730,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.motionScreen.view.trash.dragHandler.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -40250,7 +39743,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.motionScreen.view.trash.dragHandler.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -40547,6 +40040,19 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioState": true,
       "phetioStudioControl": true,
       "phetioTypeName": "PropertyIO<BooleanIO>"
+    },
+    "forcesAndMotionBasics.netForceScreen": {
+      "phetioDocumentation": "",
+      "phetioDynamicElement": false,
+      "phetioEventType": "MODEL",
+      "phetioFeatured": true,
+      "phetioHighFrequency": false,
+      "phetioIsArchetype": false,
+      "phetioPlayback": false,
+      "phetioReadOnly": false,
+      "phetioState": false,
+      "phetioStudioControl": true,
+      "phetioTypeName": "ScreenIO"
     },
     "forcesAndMotionBasics.netForceScreen.activeProperty": {
       "phetioDocumentation": "Indicates whether the screen is currently displayed in the simulation.  For single-screen simulations, there is only one screen and it is always active.",
@@ -43604,7 +43110,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.netForceScreen.view.largeBluePuller.dragHandler.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -43617,7 +43123,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.netForceScreen.view.largeBluePuller.dragHandler.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -43630,7 +43136,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.netForceScreen.view.largeBluePuller.dragHandler.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -43721,7 +43227,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.netForceScreen.view.largeRedPuller.dragHandler.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -43734,7 +43240,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.netForceScreen.view.largeRedPuller.dragHandler.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -43747,7 +43253,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.netForceScreen.view.largeRedPuller.dragHandler.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -44176,7 +43682,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.netForceScreen.view.mediumBluePuller.dragHandler.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -44189,7 +43695,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.netForceScreen.view.mediumBluePuller.dragHandler.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -44202,7 +43708,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.netForceScreen.view.mediumBluePuller.dragHandler.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -44293,7 +43799,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.netForceScreen.view.mediumRedPuller.dragHandler.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -44306,7 +43812,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.netForceScreen.view.mediumRedPuller.dragHandler.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -44319,7 +43825,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.netForceScreen.view.mediumRedPuller.dragHandler.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -44995,7 +44501,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.netForceScreen.view.smallBluePuller1.dragHandler.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -45008,7 +44514,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.netForceScreen.view.smallBluePuller1.dragHandler.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -45021,7 +44527,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.netForceScreen.view.smallBluePuller1.dragHandler.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -45112,7 +44618,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.netForceScreen.view.smallBluePuller2.dragHandler.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -45125,7 +44631,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.netForceScreen.view.smallBluePuller2.dragHandler.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -45138,7 +44644,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.netForceScreen.view.smallBluePuller2.dragHandler.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -45229,7 +44735,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.netForceScreen.view.smallRedPuller1.dragHandler.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -45242,7 +44748,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.netForceScreen.view.smallRedPuller1.dragHandler.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -45255,7 +44761,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.netForceScreen.view.smallRedPuller1.dragHandler.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -45346,7 +44852,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ObjectIO"
     },
     "forcesAndMotionBasics.netForceScreen.view.smallRedPuller2.dragHandler.dragAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -45359,7 +44865,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.netForceScreen.view.smallRedPuller2.dragHandler.dragEndAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag end in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag end in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
@@ -45372,7 +44878,7 @@ window.phet.phetio.phetioElementsBaseline = assert &&
       "phetioTypeName": "ActionIO<Vector2IO>"
     },
     "forcesAndMotionBasics.netForceScreen.view.smallRedPuller2.dragHandler.dragStartAction": {
-      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO. the position of the drag start in view coordinates</li></ol>",
+      "phetioDocumentation": "A function that executes. The arguments are:<br/><ol><li>point: Vector2IO - the position of the drag start in view coordinates</li></ol>",
       "phetioDynamicElement": false,
       "phetioEventType": "MODEL",
       "phetioFeatured": false,
